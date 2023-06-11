@@ -1,4 +1,3 @@
-<!-- NavigationBar.vue -->
 <template>
   <nav class="navbar navbar-dark bg-dark fixed-top" :class="{ 'navbar-hide': isNavHidden }">
     <div class="container-fluid">

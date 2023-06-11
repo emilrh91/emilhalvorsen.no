@@ -59,7 +59,7 @@
   .collapsed {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-line-clamp: 1; 
     -webkit-box-orient: vertical;
   }
   

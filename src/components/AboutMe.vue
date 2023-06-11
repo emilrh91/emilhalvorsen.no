@@ -48,8 +48,8 @@
 }
 
 .skills-list img {
-  width: 50px;  /* Adjust size as needed */
-  height: 50px; /* Adjust size as needed */
+  width: 50px; 
+  height: 50px; 
   margin-right: 10px;
 }
 
@@ -63,7 +63,6 @@
   color: black;
   font-size: 1.1rem;
 }
-
 
   </style>
   

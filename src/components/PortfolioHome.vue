@@ -18,18 +18,18 @@
 </template>
 
 <script>
-import Swiper, { Pagination } from 'swiper'; // Removed Navigation
+import Swiper, { Pagination } from 'swiper'; 
 import 'swiper/swiper-bundle.min.css';
 import AboutMe from './AboutMe.vue';
 import ProjectCard from './ProjectCard.vue';
 import projectsData from '@/data/projects.json';
 
-Swiper.use([Pagination]); // Removed Navigation
+Swiper.use([Pagination]); 
 
 export default {
   name: 'PortfolioHome',
   components: {
-    AboutMe, // Include the AboutMe component
+    AboutMe, 
     ProjectCard,
   },
   data() {
@@ -59,7 +59,7 @@ export default {
 <style scoped>
 .container {
   position: relative;
-  overflow-x: hidden; /* Add this line to hide the sideways scrollbar */
+  overflow-x: hidden; 
   max-width: 800px;
 
 }

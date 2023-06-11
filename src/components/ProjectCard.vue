@@ -52,7 +52,7 @@ export default {
   max-height: 60vh;
   width: 100%;
   object-fit: cover;
-  object-position: 50% 0%; /* This would keep center of image horizontally, and 20% from the top of the image in view */
+  object-position: 50% 0%; 
 }
 
 .custom-button {

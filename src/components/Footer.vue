@@ -1,7 +1,5 @@
-<!-- Footer.vue -->
 <template>
     <footer class="footer">
-      <!-- Your footer content here -->
     </footer>
   </template>
   
@@ -13,9 +11,9 @@
   
   <style scoped>
   .footer {
-    background-color: #343a40; /* Use the same background color as the navigation bar */
-    color: #fff; /* Set the text color for the footer */
-    padding: 20px; /* Adjust the padding as needed */
+    background-color: #343a40; 
+    color: #fff; 
+    padding: 20px; 
   }
   </style>
   
