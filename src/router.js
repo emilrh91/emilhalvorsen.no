@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import PortfolioHome from '@/components/PortfolioHome.vue';
-import AboutPage from '@/components/AboutPage.vue';
+import Contact from '@/components/ContactForm.vue'; 
+
 
 const routes = [
   {
@@ -9,9 +10,9 @@ const routes = [
     component: PortfolioHome
   },
   {
-    path: '/about',
-    name: 'About',
-    component: AboutPage
+    path: '/contact',
+      name: 'Contact',
+      component: Contact,
   }
 ];
 

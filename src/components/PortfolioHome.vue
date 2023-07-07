@@ -2,8 +2,8 @@
     <div class="about">
       <AboutMe/>
     </div>
-    <h1>School Projects</h1>
     <div class="container">
+    <h1>School Projects</h1>    
       <div class="px-lg-5">
         <div class="swiper-container" ref="swiper">
           <div class="swiper-wrapper">
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-</template>
+    </template>
 
 <script>
 import Swiper, { Pagination } from 'swiper'; 
@@ -58,11 +58,14 @@ export default {
 
 <style scoped>
 .container {
+  margin-top: 4rem; 
+  margin-bottom: 2rem;
   position: relative;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   max-width: 800px;
-
+  
 }
+
 
 .pagination-container {
   display: flex;

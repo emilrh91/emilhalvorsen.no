@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-dark bg-dark fixed-top" :class="{ 'navbar-hide': isNavHidden }">
+  <nav class="nav navbar navbar-expand-lg navbar-dark bg-dark fixed-top" :class="{ 'navbar-hide': isNavHidden }">
     <div class="container-fluid">
-      <a class="navbar-brand" @click="navigate('/')">EMIL HALVORSEN</a>
+      <router-link class="navbar-brand" to="/">EMIL HALVORSEN</router-link>
       <button 
         class="navbar-toggler" 
         type="button" 
@@ -14,8 +14,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <router-link class="nav-link" to="/contact">Contact</router-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -56,25 +58,21 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
-
-.navbar-brand, .nav-link {
-  font-family: 'EB Garamond', serif;
-}
 .navbar {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
 }
 .navbar-brand {
   letter-spacing: 2px;
   font-weight: bold;
-  cursor: pointer;
-  transition: color 0.2s ease-in-out;
   color: rgba(255, 255, 255, 0.5);
+  transition: color 0.2s ease-in-out;
 }
 .navbar-brand:hover {
   color: #fff;
 }
 .nav-link {
+  color: rgba(255, 255, 255, 0.5);
   transition: color 0.2s ease-in-out;
 }
 .nav-link:hover {
@@ -84,5 +82,8 @@ export default {
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
 }
-
+.navbar-nav.ml-auto > li > a {
+  margin-right: 20px;
+}
 </style>
+
