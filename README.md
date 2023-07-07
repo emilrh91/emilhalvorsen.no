@@ -1,35 +1,37 @@
+# Emil Halvorsen's Portfolio
 
-## emilhalvorsen.no
+Welcome to the repository for my personal portfolio website, designed to showcase my skills, experience, and academic projects. As a front-end focused software developer, I've constructed this site with a clean, responsive design that hopefully provides an enjoyable user experience.
 
-### Components
+## Project Structure
 
-- PortfolioHome.vue: This component is the main home page of the portfolio. It incorporates the 'About Me' component and showcases a list of school projects using a swiper slide. Each project is rendered in the ProjectCard component.
+This project is built with Vue.js and is organized into several components:
 
-- AboutMe.vue: This component renders an 'About Me' section that includes a brief description of the user and a list of the user's skills with corresponding logos.
+- `PortfolioHome.vue`: This is the landing page of my portfolio, containing the 'About Me' component and a carousel of academic projects.
 
-- ExpandableContent.vue: A Vue component that displays content in an expandable/collapsible format. It starts collapsed and expands upon the user's interaction. It's designed to hold content that exceeds the provided visibleLines prop. If the content exceeds the visible lines, a toggle button appears to expand or collapse the content.
+- `AboutMe.vue`: This section includes a brief introduction about me and a display of my skill set.
 
-- NavigationBar.vue: This component handles the navigation bar, which includes a responsive collapsing and expanding feature. When the page is scrolled, the navigation bar will hide and reappear based on the scroll direction.
+- `ExpandableContent.vue`: An interactive component that toggles the visibility of its content.
 
+- `NavigationBar.vue`: This component provides site-wide navigation, featuring a responsive design.
 
-- ProjectCard.vue: This component is responsible for displaying individual project details. The details include the project image, title, description, a link to the Github repository, and a link to the live site.
+- `ProjectCard.vue`: These cards display the details of each showcased project, including a project snapshot, title, description, and links to both the GitHub repository and the live project site.
 
-### Setup and Run
-Here's how you can set up this project:
+The `assets` directory contains static files like images and icons, while the `data` directory includes JSON files containing the details of my projects.
 
-- Clone this repository.
-    
-    git clone https://github.com/emilrh91/emilhalvorsen.no
+## Getting Started
 
-- Navigate to the project folder.
-    
-    cd portfolio-home
+To get this project up and running on your local machine, follow these steps:
 
-### Project Structure
-This project uses the following structure:
+1. Clone this repository: `git clone https://github.com/emilrh91/emilhalvorsen.no`
+2. Navigate to the project folder: `cd emilhalvorsen.no`
+3. Install the necessary dependencies: `npm install`
+4. Start the development server: `npm run serve`
 
-assets: This folder contains any images or icons used in the project.
+You should now be able to see the project running in your browser.
 
-components: This folder contains all the Vue.js components used in the project.
+## Contact Me
+Feel free to reach out to me on [LinkedIn](www.linkedin.com/in/emil-halvorsen-2380b3103/) for any inquiries or opportunities.
 
-data: This folder contains data that's used in the project, such as project details.
+## Live Site
+For a live version of my portfolio, please visit: [Emil Halvorsen](https://emilhalvorsen.no/).
+
