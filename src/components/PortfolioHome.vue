@@ -2,6 +2,7 @@
     <div class="about">
       <AboutMe/>
     </div>
+    <ContactLinkedIn/>
     <div class="container">
     <h1>School Projects</h1>    
       <div class="px-lg-5">
@@ -15,12 +16,14 @@
         </div>
       </div>
     </div>
+    
     </template>
 
 <script>
 import Swiper, { Pagination } from 'swiper'; 
 import 'swiper/swiper-bundle.min.css';
 import AboutMe from './AboutMe.vue';
+import ContactLinkedIn from './ContactLinkedIn.vue';
 import ProjectCard from './ProjectCard.vue';
 import projectsData from '@/data/projects.json';
 
@@ -31,6 +34,7 @@ export default {
   components: {
     AboutMe, 
     ProjectCard,
+    ContactLinkedIn,
   },
   data() {
     return {

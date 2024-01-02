@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import PortfolioHome from '@/components/PortfolioHome.vue';
-import Contact from '@/components/ContactForm.vue'; 
+
 
 
 const routes = [
@@ -8,12 +8,8 @@ const routes = [
     path: '/',
     name: 'Home',
     component: PortfolioHome
-  },
-  {
-    path: '/contact',
-      name: 'Contact',
-      component: Contact,
   }
+ 
 ];
 
 const router = createRouter({
