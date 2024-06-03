@@ -1,27 +1,50 @@
 [
-    {
-      "id": 1,
-      "title": "Legal Insights - Project Exam",
-      "description": "This project represents a fully responsive and dynamic blog site, developed using core web technologies - HTML, CSS, and JavaScript. The website's content, inclusive of 12 individual blog articles, is handled via WordPress functioning as a headless CMS. The project highlights proficiency in working with APIs (particularly, WordPress REST API), creating responsive designs, ensuring web accessibility, and implementing optimization strategies.",
-      "screenshot": "legalinsights.jpg",
-      "githubLink": "https://github.com/Noroff-FEU-Assignments/project-exam-1-emilrh91",
-      "liveSiteLink": "https://legalinsights.netlify.app/"
-    },
-    {
-      "id": 2,
-      "title": "Community Science Museum - Semester Project",
-      "description": "This project involved the development of an interactive website for a new local science museum, the Community Science Museum. The website was designed to be informative, appealing, and engaging. The website was developed using semantic HTML and external CSS, ensuring responsive and easy usability across various devices. The site included 6 pages, all optimized for quick downloads and SEO. WCAG principles were upheld to ensure accessibility.",
-      "screenshot": "communitysciencemuseum.jpg",
-      "githubLink": "https://github.com/emilrh91/semester-project-1",
-      "liveSiteLink": "https://communitysciencemuseum-project.netlify.app/"
-    },
-    {
-      "id": 3,
-      "title": "Rainydays - School Project",
-      "description": "Rainydays is a project designed as an outdoor jackets e-commerce platform for hiking and other activities. Developed with semantic HTML, CSS, and JavaScript, the website integrates a REST API from WordPress for product display and management. The site is built following WCAG principles for accessibility and uses responsive design techniques to ensure an optimal viewing experience across a range of devices.",
-      "screenshot": "rainydays.jpg",
-      "githubLink": "https://github.com/emilrh91/Rainydays",
-      "liveSiteLink": "https://rainydays-school-project.netlify.app/"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Legal Insights - Project Exam",
+    "description": "This project represents a fully responsive and dynamic blog site, developed using core web technologies - HTML, CSS, and JavaScript. The website's content, inclusive of 12 individual blog articles, is handled via WordPress functioning as a headless CMS. The project highlights proficiency in working with APIs (particularly, WordPress REST API), creating responsive designs, ensuring web accessibility, and implementing optimization strategies.",
+    "screenshot": "legalinsights.jpg",
+    "githubLink": "https://github.com/Noroff-FEU-Assignments/project-exam-1-emilrh91",
+    "liveSiteLink": "https://legalinsights.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "Community Science Museum - Semester Project",
+    "description": "This project involved the development of an interactive website for a new local science museum, the Community Science Museum. The website was designed to be informative, appealing, and engaging. The website was developed using semantic HTML and external CSS, ensuring responsive and easy usability across various devices. The site included 6 pages, all optimized for quick downloads and SEO. WCAG principles were upheld to ensure accessibility.",
+    "screenshot": "communitysciencemuseum.jpg",
+    "githubLink": "https://github.com/emilrh91/semester-project-1",
+    "liveSiteLink": "https://communitysciencemuseum-project.netlify.app/"
+  },
+  {
+    "id": 3,
+    "title": "Rainydays - School Project",
+    "description": "Rainydays is a project designed as an outdoor jackets e-commerce platform for hiking and other activities. Developed with semantic HTML, CSS, and JavaScript, the website integrates a REST API from WordPress for product display and management. The site is built following WCAG principles for accessibility and uses responsive design techniques to ensure an optimal viewing experience across a range of devices.",
+    "screenshot": "rainydays.jpg",
+    "githubLink": "https://github.com/emilrh91/Rainydays",
+    "liveSiteLink": "https://rainydays-school-project.netlify.app/"
+  },
+  {
+    "id": 4,
+    "title": "Holidaze - Project Exam 2",
+    "description": "Holidaze is a project involving the development of a complete front-end application for a newly launched accommodation booking site. The application is built using React, Vite, and Bootstrap, ensuring a responsive and visually appealing user experience. The project includes API integration to handle all accommodation and booking functionalities.",
+    "screenshot": "holidaze.png",
+    "githubLink": "https://github.com/emilrh91/PE2",
+    "liveSiteLink": "https://pe2holidaze.netlify.app/"
+  },
+  {
+    "id": 5,
+    "title": "Ecom Site - JavaScript Frameworks",
+    "description": "This project involves the development of a complete e-commerce website using React and Bootstrap. The site features multiple pages, including a homepage with a product list, individual product pages, a cart page, and a checkout success page. Users can browse products, add items to their cart, and complete purchases. The site integrates with an API to fetch product data and manages cart state using React. The design is fully responsive, ensuring a seamless user experience across various devices. Additional features include a look-ahead search bar, user authentication, and form validation on the contact page.",
+    "screenshot": "ecom-site.png",
+    "githubLink": "https://github.com/emilrh91/ecom-site",
+    "liveSiteLink": "https://ecom-site-project.netlify.app/"
+  },
+  {
+    "id": 6,
+    "title": "Bits and Bids - Semester Project 2",
+    "description": "Bits and Bids is a semester project that involves the creation of an interactive auction website. Users can register, log in, and participate in bidding on various items. Developed using JavaScript, HTML, CSS, and Bootstrap, the website is fully responsive and user-friendly. Key features include user authentication, listing creation with media galleries, real-time bidding, and the ability to view and manage user credits. The project integrates with an API to handle all auction-related functionalities, ensuring a seamless and dynamic user experience.",
+    "screenshot": "bitsandbids.png",
+    "githubLink": "https://github.com/emilrh91/SP2/",
+    "liveSiteLink": "https://bitsandbids.netlify.app/"
+  }
+]
